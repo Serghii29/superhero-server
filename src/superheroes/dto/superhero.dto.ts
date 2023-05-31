@@ -5,4 +5,4 @@ export interface SuperheroDto {
   superpowers: string;
   catch_phrase: string | null;
   images: string;
-};
+}
