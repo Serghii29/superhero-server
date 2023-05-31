@@ -27,7 +27,7 @@ export class SuperheroesController {
     return this.superheroesService.superheroes();
   }
 
-  @Post('create')
+  @Post('')
   async newCard(@Body() dto: SuperheroDto) {
     return this.superheroesService.create(dto);
   }
